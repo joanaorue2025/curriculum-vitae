@@ -1,0 +1,73 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Montserrat bold";
+    src: url(fuentes/MontserratAlternates-Bold.otf) format(truetype); font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Montserrat light";
+    src: url(fuentes/MontserratAlternates-Light.otf) format(truetype); font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:"Montserrat medium";
+    src: url(fuentes/MontserratAlternates-Medium.otf) format(truetype); font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Montserrat regular";
+    src: url(fuentes/MontserratAlternates-Regular.otf) format(truetype); font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Montserrat bold' , sans-serif;
+    color: darkcyan;
+    text-align: center;
+}
+h2 {color: dimgray ;
+}
+h3 {
+    font-family:'Montserrat medium' , sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1rem;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    text-wrap-style: balance;
+    text-align: left;
+    line-height: 1.8rem;
+}
+a {
+    font-family: "Montserrat light";
+    text-decoration: none;
+    font-size: 5rem;
+    color: black;
+    font-size: 20px;
+    text-wrap-style: balance;
+}
+
+.header {
+    background-color: #00c896;
+
+}
+
+#presentacion {
+    background-color: rgb(80, 192, 158) ;
+}
