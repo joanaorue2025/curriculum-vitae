@@ -2,23 +2,30 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family:"Montserrat bold";
-    src: url(fuentes/MontserratAlternates-Bold.otf) format(truetype); font-weight: bold;
+    font-family: "Montserrat bold";
+    src: url(fuentes/MontserratAlternates-Bold.otf) format(truetype);
+    font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
-    font-family:"Montserrat light";
-    src: url(fuentes/MontserratAlternates-Light.otf) format(truetype); font-weight:normal;
-    font-style:normal;
-}
-@font-face {
-    font-family:"Montserrat medium";
-    src: url(fuentes/MontserratAlternates-Medium.otf) format(truetype); font-weight: normal;
+    font-family: "Montserrat light";
+    src: url(fuentes/MontserratAlternates-Light.otf) format(truetype);
+    font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family:"Montserrat regular";
-    src: url(fuentes/MontserratAlternates-Regular.otf) format(truetype); font-weight: normal;
+    font-family: "Montserrat medium";
+    src: url(fuentes/MontserratAlternates-Medium.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat regular";
+    src: url(fuentes/MontserratAlternates-Regular.otf) format(truetype);
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -28,32 +35,40 @@
     padding: 0;
 }
 
-h1, h2 {
-    font-family: 'Montserrat bold' , sans-serif;
+h1,
+h2 {
+    font-family: 'Montserrat bold', sans-serif;
     color: darkcyan;
     text-align: center;
 }
-h2 {color: dimgray ;
-}
-h3 {
-    font-family:'Montserrat medium' , sans-serif;
+
+h2 {
+    color: dimgray;
 }
 
-h1{
+h3 {
+    font-family: 'Montserrat medium', sans-serif;
+}
+
+h1 {
     font-size: 50px;
     line-height: 1rem;
 }
-h2{
+
+h2 {
     font-size: 25px;
 }
-h3{
+
+h3 {
     font-size: 20px;
 }
-p{
+
+p {
     text-wrap-style: balance;
     text-align: left;
     line-height: 1.8rem;
 }
+
 a {
     font-family: "Montserrat light";
     text-decoration: none;
@@ -63,9 +78,10 @@ a {
     text-wrap-style: balance;
 }
 
-nav {text-align: center;
+nav {
+    text-align: center;
     font-size: 25px;
-    min-height:5vh;
+    min-height: 5vh;
     padding: 30px;
 
     display: flex;
@@ -74,30 +90,33 @@ nav {text-align: center;
 
 header {
     background-color: rgb(80, 192, 158);
-    min-height:15vh;
+    min-height: 15vh;
 
     display: flex;
     justify-content: center;
     padding: 20px;
 
 }
+
 footer {
     text-wrap-style: balance;
     text-align: center;
     font-size: 20px;
-    min-height:25vh;
+    min-height: 25vh;
     padding: 25px;
     margin: 5px;
     border-top-width: 30px;
     border-bottom-width: 0px;
     border-left-width: 0;
     border-right-width: 0;
-    border-color: rgb(80,192,158);
+    border-color: rgb(80, 192, 158);
     border-style: solid;
     background-color: #808080;
 
 }
-.contenedor{display: flex;
+
+.contenedor {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
@@ -105,53 +124,104 @@ footer {
 
 }
 
-#presentacion {text-align: center;
-    height:6vh;
+#presentacion {
+    text-align: center;
+    height: 6vh;
     padding: 50px;
     margin: 10px;
     line-height: 4rem;
 
 }
-#sobremi {
+
+#sobre-mi {
     border-radius: 15px 0;
-    background-color: rgb(80, 192, 158) ;
+    background-color: rgb(80, 192, 158);
     min-height: 71vh;
     max-width: 900px;
     border: 6px solid grey;
     padding: 25px;
-    margin: 40px;
-    box-sizing:border-box;
+    margin: 40px 100px;
+    box-sizing: border-box;
 
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content:center;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     color: white;
+
 }
+
 #datos {
     height: 27vh;
     padding: 12px;
-    margin: 40px;
-    box-sizing:border-box;
+    margin: 40px 100px;
+    box-sizing: border-box;
 }
-#formacion { 
-    height: 27vh;
+
+#formacion {
+    height: 98vw;
     padding: 12px;
-    margin: 40px;
-    box-sizing:border-box;
+    margin: 40px 100px;
+    box-sizing: border-box;
 
 }
+
 #experiencia {
-    height: 27vh;
+    height: 20px100vw;
     padding: 12px;
-    margin: 40px;
-    box-sizing:border-box;
+    margin: 40px 100px;
+    box-sizing: border-box;
 
 }
 
-footer p{
+footer p {
     line-height: 3.5rem;
     text-align: center;
 
+}
+
+ul {
+    list-style: none;
+}
+
+#sobre-mi article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+
+    p {
+        text-wrap: pretty;
+    }
+    div {
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        min-width: 420px;
+    }
+}
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    margin: 30px;
+}
+.galeria2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    margin: 30px;
+}
+#hobbies {
+    height: 20px 100vw;
+    padding: 12px;
+    margin: 40px 100px;
+    box-sizing: border-box;
 }
