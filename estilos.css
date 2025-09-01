@@ -51,21 +51,23 @@ h3 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1rem;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 32px;
+    color: darkcyan;
 }
 
 p {
+    font-size: 20px;
     text-wrap-style: balance;
-    text-align: left;
+    text-align: center;
     line-height: 1.8rem;
 }
 
@@ -85,7 +87,9 @@ nav {
     padding: 30px;
 
     display: flex;
-    gap: 30px;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center
 }
 
 header {
@@ -126,21 +130,19 @@ footer {
 
 #presentacion {
     text-align: center;
-    height: 6vh;
+    height: initial;
     padding: 50px;
     margin: 10px;
-    line-height: 4rem;
+    line-height:6rem;
 
 }
 
 #sobre-mi {
-    border-radius: 15px 0;
+    border-radius: 15px 15px;
+    height: 277px;
     background-color: rgb(80, 192, 158);
-    min-height: 71vh;
-    max-width: 900px;
-    border: 6px solid grey;
-    padding: 25px;
-    margin: 40px 100px;
+    text-align: center;
+    border: 8px solid grey;
     box-sizing: border-box;
 
     display: flex;
@@ -149,30 +151,30 @@ footer {
     justify-content: center;
     flex-direction: column;
     color: white;
-
+    padding: 0px;
+    margin: 0px;
+    height: initial;
+    
 }
 
 #datos {
-    height: 27vh;
-    padding: 12px;
-    margin: 40px 100px;
+    height: 280px;
     box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
 }
 
 #formacion {
-    height: 98vw;
-    padding: 12px;
-    margin: 40px 100px;
+    height: auto;
     box-sizing: border-box;
+    text-align: center;
 
 }
 
 #experiencia {
-    height: 20px100vw;
-    padding: 12px;
-    margin: 40px 100px;
+    height: 280px;
     box-sizing: border-box;
-
+    text-align: center;
 }
 
 footer p {
@@ -210,6 +212,7 @@ ul {
     gap: 20px;
     flex-direction: row;
     margin: 30px;
+    
 }
 .galeria2 {
     display: flex;
@@ -224,4 +227,18 @@ ul {
     padding: 12px;
     margin: 40px 100px;
     box-sizing: border-box;
+    text-align: center;
 }
+a:hover{
+    color: white;
+}
+
+#experiencia {
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+    margin: 30px auto 55px;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    }
