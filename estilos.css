@@ -65,7 +65,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 25 px;
     text-wrap-style: balance;
     text-align: center;
     line-height: 1.8rem;
@@ -133,7 +133,7 @@ footer {
     height: initial;
     padding: 50px;
     margin: 10px;
-    line-height:6rem;
+    line-height: 6rem;
 
 }
 
@@ -154,7 +154,7 @@ footer {
     padding: 0px;
     margin: 0px;
     height: initial;
-    
+
 }
 
 #datos {
@@ -197,6 +197,7 @@ ul {
     p {
         text-wrap: pretty;
     }
+
     div {
         max-width: 550px;
         display: flex;
@@ -205,6 +206,7 @@ ul {
         min-width: 420px;
     }
 }
+
 .galeria {
     display: flex;
     justify-content: center;
@@ -212,8 +214,9 @@ ul {
     gap: 20px;
     flex-direction: row;
     margin: 30px;
-    
+
 }
+
 .galeria2 {
     display: flex;
     justify-content: center;
@@ -222,14 +225,20 @@ ul {
     flex-direction: row;
     margin: 30px;
 }
+
 #hobbies {
+
+    margin: 30px auto 55px;
+    gap: 50px;
+
     height: 20px 100vw;
     padding: 12px;
     margin: 40px 100px;
     box-sizing: border-box;
     text-align: center;
 }
-a:hover{
+
+a:hover {
     color: white;
 }
 
@@ -241,4 +250,4 @@ a:hover{
     gap: 50px;
     flex-direction: row;
     align-items: center;
-    }
+}
