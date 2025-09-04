@@ -7,58 +7,48 @@
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
     font-family: "Montserrat light";
     src: url(fuentes/MontserratAlternates-Light.otf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: "Montserrat medium";
     src: url(fuentes/MontserratAlternates-Medium.otf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: "Montserrat regular";
     src: url(fuentes/MontserratAlternates-Regular.otf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
-
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 h1,
 h2 {
     font-family: 'Montserrat bold', sans-serif;
     color: darkcyan;
     text-align: center;
 }
-
 h2 {
     color: dimgray;
 }
-
 h3 {
     font-family: 'Montserrat medium', sans-serif;
 }
-
 h1 {
     font-size: 60px;
     line-height: 1rem;
 }
-
 h2 {
     font-size: 35px;
 }
-
 h3 {
     font-size: 32px;
     color: darkcyan;
@@ -70,7 +60,6 @@ p {
     text-align: center;
     line-height: 1.8rem;
 }
-
 a {
     font-family: "Montserrat light";
     text-decoration: none;
@@ -79,7 +68,6 @@ a {
     font-size: 20px;
     text-wrap-style: balance;
 }
-
 nav {
     text-align: center;
     font-size: 25px;
@@ -88,18 +76,16 @@ nav {
     display: flex;
     gap: 45px;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 }
-
 header {
     background-color: rgb(80, 192, 158);
     min-height: 15vh;
     display: flex;
     justify-content: center;
     padding: 20px;
-
 }
-
 footer {
     text-wrap-style: balance;
     text-align: center;
@@ -114,58 +100,50 @@ footer {
     border-color: rgb(80, 192, 158);
     border-style: solid;
     background-color: #808080;
-
 }
-
 .contenedor {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
     max-width: 1200px;
-
 }
-
 #presentacion {
     text-align: center;
     height: initial;
     padding: 50px;
     margin: 10px;
     line-height: 6rem;
-
 }
-
 #sobre-mi {
     border-radius: 15px 15px;
-    height: 277px;
     background-color: rgb(80, 192, 158);
-    text-align: center;
     border: 8px solid grey;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
     flex-direction: column;
     color: white;
     padding: 0px;
     margin: 0px;
     height: initial;
-
 }
-
 #datos {
     height: 280px;
     box-sizing: border-box;
     text-align: center;
     padding: 30px;
 }
-
-#formacion {
-    height: auto;
+#formacion {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 950px;
+    margin: 30px auto 55px;
+    height: 20px 100vw;
     box-sizing: border-box;
     text-align: center;
-
 }
 
 #experiencia {
@@ -173,17 +151,13 @@ footer {
     box-sizing: border-box;
     text-align: center;
 }
-
 footer p {
     line-height: 3.5rem;
     text-align: center;
-
 }
-
 ul {
     list-style: none;
 }
-
 #sobre-mi article {
     display: flex;
     align-items: center;
@@ -192,9 +166,15 @@ ul {
     padding: 30px;
 
     p {
+        text-align: left;
         text-wrap: pretty;
     }
 
+    h3 {
+        text-align: left;
+        color: white;
+
+    }
     div {
         max-width: 550px;
         display: flex;
@@ -203,7 +183,6 @@ ul {
         min-width: 420px;
     }
 }
-
 .galeria {
     display: flex;
     justify-content: center;
@@ -213,7 +192,16 @@ ul {
     margin: 30px;
 
 }
-
+#hobbies {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 950px;
+    margin: 30px auto 55px;
+    height: 20px 100vw;
+    box-sizing: border-box;
+    text-align: center;
+}
 .galeria2 {
     display: flex;
     justify-content: center;
@@ -221,23 +209,13 @@ ul {
     gap: 20px;
     flex-direction: row;
     margin: 30px;
+    max-width: 1200px;
+    align-content: center;
+    align-items: center;
 }
-
-#hobbies {
-
-    margin: 30px auto 55px;
-    gap: 50px;
-    height: 20px 100vw;
-    padding: 12px;
-    margin: 40px 100px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
 a:hover {
     color: white;
 }
-
 #experiencia {
     display: flex;
     justify-content: center;
